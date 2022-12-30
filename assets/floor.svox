@@ -1,0 +1,12 @@
+model
+name = Floor
+revision = 8476
+size = 20 40 20
+origin = -y
+shell = Outline 0.25
+material type = toon, lighting = smooth, deform = 1 1
+  colors = B:#061178 A:#D9E8FF C:#88B1FC
+material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
+  colors = Outline:#000
+voxels
+380-2(20B780-2(B8A)2B780-2(BAC4BCA)2B780-BABC2BC2(BA)BC2BCBA2(2B780-2(BA2B2C2BA))2B780-BABC2BC2(BA)BC2BCBA2B780-2(BAC4BCA)2B780-2(B8A)2B780-)20B780-20B400-

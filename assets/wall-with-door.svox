@@ -1,0 +1,12 @@
+model
+name = WallWithDoor
+revision = 8442
+size = 128 58 40
+origin = -y
+shell = Outline 0.25
+material type = toon, lighting = smooth, deform = 1 1
+  colors = B:#88B1FC
+material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
+  colors = Outline:#000
+voxels
+218934-74B16(54-3B11-60B)13(54-74B)74240-

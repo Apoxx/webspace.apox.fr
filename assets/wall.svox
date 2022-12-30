@@ -1,0 +1,12 @@
+model
+name = Wall
+revision = 8415
+size = 128 58 20
+origin = -y
+shell = Outline 0.25
+material type = toon, lighting = smooth, deform = 1 1
+  colors = B:#88B1FC
+material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
+  colors = Outline:#000
+voxels
+144694-29(74B54-)74B
