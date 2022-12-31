@@ -1,0 +1,19 @@
+light color = #FFF 0.5
+light color = #0F0, position = 0 1.75 0, size = 0.085, detail = 3
+light color = #FFF 0.5, direction = 0 1 1
+
+model
+name = main
+revision = 1
+size = 10 180 10
+scale = 0.01
+origin = -y
+shell = Outline 0.25
+material type = basic, lighting = smooth, roughness = 0.3, deform = 3 1, ao = #F0F 15 -4
+  colors = A:#FC4
+material type = basic, lighting = smooth, roughness = 0.3, deform = 5 1
+  colors = B:#622
+material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
+  colors = Outline:#000
+voxels
+1713-4A5-6A4-2A2-2A4-A3-2A8-2A7-3A6-3A1446-2(2B9-)2B56-2(2B9-)2B186-4A5-6A4(3-2A)3-A4-2(2A7-)2A8-2A18-136(2B8-)2B9-2B36-2B3(7-4B)7-2B36-2B3(7-4B)6-2(2B8-)5(2A8-)2A133-3(3A7-)3A2(2-2A)4-2A8-2A7-136(4B6-)2(4B7-)3(2B7-)4B3(5-6B)5-4B3(7-2B)7-4B3(5-6B)4-2(4B6-)5(4A6-)4A7-6(2A8-)2A53-A8-2A4-2A2-3A3-2A2-2(4A6-)4A2(2-2A)4-2A6-136(6B4-)2(6B5-)3(4B5-)6B4-2(6B5-)6B4-6B3(5-4B)5-6B4-2(6B5-)6B3-2(6B4-)5(6A4-)6A5-7(4A6-)4A5-6A4-6A3-8A-2(3A4-)2A2-2A3-4A6-4A7-2A4-2A6-4A2(2-2A)4-2A6-136(6B4-)6B2(5-6B4-2(6B3-)6B4-6B5-2(4B7-)4B)2(4-6B)6(4-6A)5-7(4A6-)4A5-6A4-6A3-8A-3A4-5A2-2A7-4A6-4A7-2A4-2A6-4A2(2-2A)4-2A7-136(4B6-)4B2(7-4B5-2(6B3-)6B5-4B7-2(2B9-)2B)2(6-4B)6(6-4A)7-6(2A8-)2A44-A9-2A8-2A2-2A4-2A2-2A3-3A2(6-4A)2(2-2A)4-2A137(8-2B)9-2B7-2(4B5-)4B7-2B40-2B7-2(4B5-)4B7-2B39-2(2B8-)5(2A8-)2A124-A9-A2(7-3A)7-4A2(2-2A)4-2A8-2A1389-2(2B7-)2B60-2(2B7-)2B228-4A5-6A4-4(2A3-)2A4-A4-2A9-2A8-2A1727-4A5-6A4-2A2-2A4-2A3-A4-2A2(8-3A)24-

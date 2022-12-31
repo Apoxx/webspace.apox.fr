@@ -1,0 +1,26 @@
+model
+name = main
+revision = 4
+size = 10 12 10
+scale = 0.1 0.12 0.1
+origin = -y
+clamp = -y
+ao = 2 2
+shell = Outline 0.25
+material deform = 2 1, scatter = 0.15
+  colors = T:#A20 B:#0A0
+material lighting = smooth, fade = true, deform = 2 1, warp = 1 0.2, scatter = 0.15
+  colors = M:#0A0 L:#060
+material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
+  colors = Outline:#000
+voxels
+---------- ---------- ---------- ---------- ---------- ---------- ---------- ---MMMM--- ---MMMM--- ---------- ---------- ---------- 
+---------- ---------- ---------- ---------- ---------- ---------- ---LLLL--- --MMMMMM-- --MMMMMM-- ---MMMM--- ---------- ---------- 
+---------- ------T--- ---------- ---------- ---------- ---LLLL--- --LLLLLL-- -MMMMMMMM- -MMMMMMMM- --MMMMMM-- ---MMMM--- ---------- 
+---------- ------T--- ---------- ---------- ---------- --LLLLLL-- -LLLLLLLL- MMMMMMMMMM MMMMMMMMMM -MMMMMMMM- --MMMMMM-- ---BBB---- 
+---------- -TTTTTT--- ----TT---- ----TT---- ----TT---- --LLLLLL-- -LLLLLLLL- MMMMMMMMMM MMMMMMMMMM -MMMMMMMM- --MMMMMM-- ---BBBB--- 
+---------- ----TT---- ----TT---- ----TT---- ----TT---- --LLLLLL-- -LLLLLLLL- MMMMMMMMMM MMMMMMMMMM -MMMMMMMM- --MMMMMM-- ---BBBB--- 
+---------- -----T---- ---------- ---------- ---------- --LLLLLL-- -LLLLLLLL- MMMMMMMMMM MMMMMMMMMM -MMMMMMMM- --MMMMMM-- ---BBB---- 
+---------- -----T---- ---------- ---------- ---------- ---LLLL--- --LLLLLL-- -MMMMMMMM- -MMMMMMMM- --MMMMMM-- ---MMMM--- ---------- 
+---------- ---------- ---------- ---------- ---------- ---------- ---LLLL--- --MMMMMM-- --MMMMMM-- ---MMMM--- ---------- ---------- 
+---------- ---------- ---------- ---------- ---------- ---------- ---------- ---MMMM--- ---MMMM--- ---------- ---------- ---------- 

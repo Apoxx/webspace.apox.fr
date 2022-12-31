@@ -1,0 +1,25 @@
+model
+name = main
+size = 10 13 10
+scale = 0.1
+origin = -y
+shell = Outline 0.25
+material lighting = smooth, roughness = 0.2, deform = 50 1.07, clamp = -y
+  colors = A:#040
+material lighting = both, roughness = 0.2, deform = 10 1, clamp = y
+  colors = B:#600
+material lighting = smooth, deform = 50 1, scatter = 0.25
+  colors = C:#433
+material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
+  colors = Outline:#000
+voxels
+---------- ---------- --BBBBBB-- ---------- ---------- ---------- ---AAAA--- ---AAAA--- ---AAAA--- ---AAAA--- ---------- ---------- ---------- 
+---BBBB--- ---BBBB--- -BBBBBBBB- ---------- ----AA---- --AAAAAA-- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- --AAAAAA-- ----AA---- ---------- 
+--BBBBBB-- --BCCCCB-- BB------BB ---------- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- ---------- 
+-BBBBBBBB- -BCCAACCB- BB--AA--BB ---AAAA--- --AAAAAA-- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- --AAAAAA-- ---AAAA--- 
+-BBBBBBBB- -BCAAAACB- BB-AAAA-BB ---AAAA--- -AAAAAAAA- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- -AAAAAAAA- ---AAAA--- 
+-BBBBBBBB- -BCAAAACB- BB-AAAA-BB ---AAAA--- -AAAAAAAA- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- -AAAAAAAA- ---AAAA--- 
+-BBBBBBBB- -BCCAACCB- BB--AA--BB ---AAAA--- --AAAAAA-- -AAAAAAAA- AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA -AAAAAAAA- --AAAAAA-- ---AAAA--- 
+--BBBBBB-- --BCCCCB-- BB------BB ---------- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- ---------- 
+---BBBB--- ---BBBB--- -BBBBBBBB- ---------- ----AA---- --AAAAAA-- --AAAAAA-- -AAAAAAAA- -AAAAAAAA- --AAAAAA-- --AAAAAA-- ----AA---- ---------- 
+---------- ---------- --BBBBBB-- ---------- ---------- ---------- ---AAAA--- ---AAAA--- ---AAAA--- ---AAAA--- ---------- ---------- ---------- 
